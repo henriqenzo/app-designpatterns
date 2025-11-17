@@ -12,9 +12,9 @@ struct Reminder {
     let title: String
     let date: Date?
     let location: String?
-    let priority: Priority
+    let priority: ReminderPriority
 }
 
-enum Priority {
+enum ReminderPriority {
     case none, low, medium, high
 }

@@ -12,7 +12,7 @@ class ReminderBuilder {
     private var title: String = ""
     private var date: Date?
     private var location: String?
-    private var priority: Priority = .none
+    private var priority: ReminderPriority = .none
 
     func setId(_ id: Int) -> ReminderBuilder {
         self.id = id
@@ -34,7 +34,7 @@ class ReminderBuilder {
         return self
     }
 
-    func setPriority(_ priority: Priority) -> ReminderBuilder {
+    func setPriority(_ priority: ReminderPriority) -> ReminderBuilder {
         self.priority = priority
         return self
     }

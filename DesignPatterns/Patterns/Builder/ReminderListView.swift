@@ -14,7 +14,7 @@ struct ReminderListView: View {
         ReminderBuilder().setId(2).setTitle("Ir para academia").setLocation("Smart Fit").build()
     ]
     
-    private func getExclamations(priority: Priority) -> String {
+    private func getExclamations(priority: ReminderPriority) -> String {
         switch priority {
             case .none: return ""
             case .low: return "!"

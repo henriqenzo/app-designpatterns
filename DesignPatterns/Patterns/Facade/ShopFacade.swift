@@ -1,5 +1,5 @@
 //
-//  OrderFacade.swift
+//  ShopFacade.swift
 //  DesignPatterns
 //
 //  Created by Enzo Henrique Botelho Romão on 12/11/25.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-class OrderFacade {
+class ShopFacade {
     
     private let productService: ProductService
     private let promotionService: PromotionService
